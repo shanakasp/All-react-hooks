@@ -1,0 +1,7 @@
+In React, hooks are functions that allow you to add state and other React features to functional components. 
+The useState hook is one of the most commonly used hooks in React and provides a way to add state variables 
+to your functional components without the need for class components.
+
+The useState hook is used to declare state variables and get their current values. It takes an initial value 
+as an argument and returns an array with two elements: the current state value and a function to update that state. 
+The syntax for using the useState hook looks like the provided code.
