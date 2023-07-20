@@ -5,6 +5,11 @@ const StatePractise = () => {
 
 const[counter, setCounter] = useState(0);
 
+const decrement = () =>
+{
+    setCounter(counter - 1);
+}
+
 const increment = () =>
 {
     setCounter(counter + 1);
@@ -13,6 +18,7 @@ const increment = () =>
   return (
    <div>
     {counter}<button onClick={increment}>increment</button>
+    <button onClick={decrement}>decrement</button>
    </div>
   )
 }
