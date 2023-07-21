@@ -6,6 +6,7 @@ function ParentComponent() {
 
   return (
     <div>
+    <h4>useImperativeHandle Example</h4>
       <button onClick={() => buttonRef.current.alterToggle()}>Button from Parent</button>
       <ChildComponent ref={buttonRef} />
     </div>
