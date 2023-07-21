@@ -6,9 +6,7 @@ import ParentComponent from './UseImperativeHandle/ParentComponent';
 import UseRefpractise from './UseRef/UseRefpractise';
 import StatePractise from './UseState/StatePractise';
 import StatePractise1 from './UseState/StatePractise1';
-import ContextPractise from './UserContext/ContextPractise';
-import Login from './UserContext/Login';
-import User from './UserContext/User';
+
 import UseLayoutPractise from './UserLayoutEffect/UserLayoutPractise';
 
 

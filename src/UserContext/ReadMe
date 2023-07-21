@@ -1,0 +1,2 @@
+UserContext provides a way to pass data or state through
+the component.It's builtIn API. The data transfer that can done from Parent Component to it's Child Component.

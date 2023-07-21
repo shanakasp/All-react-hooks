@@ -1,8 +1,9 @@
 import React, {useContext} from 'react'
 import { AppContext } from './ContextPractise'
 
+
 function User() {
-    const { username } = useContext(AppContext);
+    const { username, setUsername } = useContext(AppContext);
   
     return (
       <div>
