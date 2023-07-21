@@ -3,6 +3,7 @@ import './App.css';
 import UseEffectpractise from './UseEffect/UseEffectpractise';
 import ChildComponent from './UseImperativeHandle/ChildComponent';
 import ParentComponent from './UseImperativeHandle/ParentComponent';
+import MemoExample from './UseMemo/MemoExample';
 import UseRefpractise from './UseRef/UseRefpractise';
 import StatePractise from './UseState/StatePractise';
 import StatePractise1 from './UseState/StatePractise1';
@@ -20,6 +21,7 @@ function App() {
   <UseLayoutPractise/>
   <ParentComponent/>
   <ChildComponent/>
+  <MemoExample/>
   
         </div>
   );
