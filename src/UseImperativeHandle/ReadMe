@@ -1,0 +1,1 @@
+The useImperativeHandle Hook allows us to expose a value, state, or function inside a child component to the parent component. useLayoutEffect lets us perform side effects like API calls, setting up subscriptions, and manually manipulating the DOM in a function component.
