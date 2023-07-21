@@ -1,0 +1,3 @@
+Usage of useEffect is , to fethc data from API to our application. You need to
+install axios from npm install axios or yarn add axios. UseEffect will render all the fetching dat through
+from the API when the page is loading.
