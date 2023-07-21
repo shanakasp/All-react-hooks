@@ -1,0 +1,4 @@
+useLayoutEffect is similar to useEffect, but it runs synchronously after all DOM mutations and before the browser performs the paint phase. 
+It is useful when you need to read or interact with the DOM immediately after changes have been made but before the changes are visible to the user.
+ The primary use case for useLayoutEffect is to ensure that certain actions or calculations that depend on the DOM layout are performed synchronously 
+ and without causing flickering or visual artifacts.
