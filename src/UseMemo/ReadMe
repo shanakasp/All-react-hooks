@@ -1,0 +1,5 @@
+This is for more advanced stuff.
+To improove performances and decrease the lataency when page loading happend. More nessesarry for huge computational processes.
+Most of the time this methods narrowly used in industry.
+Bcz the backend part is having the responsibitly for 
+doing complex calculational tasks.
