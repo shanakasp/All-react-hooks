@@ -1,6 +1,8 @@
 
 import './App.css';
 import UseEffectpractise from './UseEffect/UseEffectpractise';
+import ChildComponent from './UseImperativeHandle/ChildComponent';
+import ParentComponent from './UseImperativeHandle/ParentComponent';
 import UseRefpractise from './UseRef/UseRefpractise';
 import StatePractise from './UseState/StatePractise';
 import StatePractise1 from './UseState/StatePractise1';
@@ -15,6 +17,9 @@ function App() {
    <UseEffectpractise/>
   <UseRefpractise/>
   <UseLayoutPractise/>
+  <ParentComponent/>
+  <ChildComponent/>
+
         </div>
   );
 }
