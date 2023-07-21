@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-function StatePractise3() {
+function UseEffectpractise() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -37,4 +37,4 @@ function StatePractise3() {
   );
 }
 
-export default StatePractise3;
+export default UseEffectpractise;

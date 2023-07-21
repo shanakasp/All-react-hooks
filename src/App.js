@@ -1,6 +1,7 @@
 
 import './App.css';
-import StatePractise3 from './UseEffect/StatePractise3';
+import UseEffectpractise from './UseEffect/UseEffectpractise';
+import UseRefpractise from './UseRef/UseRefpractise';
 import StatePractise from './UseState/StatePractise';
 import StatePractise1 from './UseState/StatePractise1';
 
@@ -10,7 +11,9 @@ function App() {
     <div className="App">
     <StatePractise/>
     <StatePractise1/>
-    <StatePractise3/>
+   <UseEffectpractise/>
+  <UseRefpractise/>
+  
         </div>
   );
 }
