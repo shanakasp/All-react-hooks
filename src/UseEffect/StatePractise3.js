@@ -29,7 +29,9 @@ function StatePractise3() {
   const firstEmail = data[0].email;
 
   return (
+
     <div>
+    <h3>UseEffect Examples</h3>
       <p>First Email: {firstEmail}</p>
     </div>
   );
